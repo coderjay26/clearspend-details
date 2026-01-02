@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClearSpend - Smart Expense Tracker App</title>
+    <meta name="description" content="ClearSpend - Track expenses, manage budgets, and save money with our intuitive expense tracker app.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/app-icon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <a href="#" class="logo">
+                    <img src="images/app-icon.png" alt="ClearSpend Icon" class="logo-icon">
+                    <span class="logo-text">ClearSpend</span>
+                </a>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#screenshots">Screenshots</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Take Control of Your <span class="highlight">Finances</span></h1>
+                    <p class="hero-subtitle">ClearSpend helps you track expenses, set budgets, and achieve your financial goals with ease.</p>
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Now
+                        </a>
+                        <a href="#features" class="btn btn-secondary">
+                            <i class="fas fa-play-circle"></i> Learn More
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">10K+</span>
+                            <span class="stat-label">Active Users</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4.8</span>
+                            <span class="stat-label">App Rating</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">500K+</span>
+                            <span class="stat-label">Transactions</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <img src="images/screenshot-1.png" alt="ClearSpend App Screenshot" class="phone-screen">
+                        <div class="phone-frame"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features</h2>
+                <p>Everything you need to manage your finances effectively</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Expense Tracking</h3>
+                    <p>Track daily expenses with categories and get detailed insights about your spending habits.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Budget Management</h3>
+                    <p>Set monthly budgets for different categories and get alerts when you're close to limits.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Visual Reports</h3>
+                    <p>Beautiful charts and graphs to visualize your income, expenses, and savings progress.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Smart Reminders</h3>
+                    <p>Never miss a bill payment with smart reminders and recurring expense tracking.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Sync</h3>
+                    <p>Your data syncs across all devices securely. Access your finances anywhere.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Privacy First</h3>
+                    <p>Your financial data stays private. We use anonymous authentication for security.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots" id="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <h2>App Screenshots</h2>
+                <p>See ClearSpend in action</p>
+            </div>
+            <div class="screenshots-carousel">
+                <div class="screenshot-item">
+                    <img src="images/screenshot-1.png" alt="Dashboard Screenshot">
+                    <p class="screenshot-caption">Dashboard Overview</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="images/screenshot-2.png" alt="Expense Tracking Screenshot">
+                    <p class="screenshot-caption">Expense Tracking</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="images/screenshot-3.png" alt="Budget Screen Screenshot">
+                    <p class="screenshot-caption">Budget Management</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="images/screenshot-4.png" alt="Reports Screenshot">
+                    <p class="screenshot-caption">Visual Reports</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-text">
+                    <h2>Download ClearSpend Now</h2>
+                    <p>Available for Android and iOS devices. Start tracking your expenses today!</p>
+                    <div class="download-buttons">
+                        <a href="downloads/clearspend.apk" class="download-btn android-btn">
+                            <i class="fab fa-android"></i>
+                            <div class="btn-text">
+                                <span class="btn-subtitle">Get it on</span>
+                                <span class="btn-title">Google Play</span>
+                            </div>
+                        </a>
+                        <a href="downloads/clearspend.ipa" class="download-btn ios-btn">
+                            <i class="fab fa-apple"></i>
+                            <div class="btn-text">
+                                <span class="btn-subtitle">Download on the</span>
+                                <span class="btn-title">App Store</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="download-info">
+                        <p><i class="fas fa-info-circle"></i> Version 1.0.0 | 15MB | Android 8.0+ / iOS 13.0+</p>
+                    </div>
+                </div>
+                <div class="download-image">
+                    <img src="images/app-icon.png" alt="ClearSpend App Icon" class="app-icon-large">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About ClearSpend</h2>
+                <p>Our mission is to make personal finance management simple and accessible for everyone</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Why Choose ClearSpend?</h3>
+                    <p>ClearSpend was born out of the need for a simple, intuitive expense tracker that doesn't overwhelm users with complicated features. We believe that managing your finances should be easy, secure, and even enjoyable.</p>
+                    
+                    <h4>Key Benefits:</h4>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check-circle"></i> <strong>No Registration Required</strong> - Start using immediately with anonymous login</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Completely Free</strong> - No hidden fees or premium features</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Offline Support</strong> - Track expenses even without internet</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Data Export</strong> - Export your data to CSV for analysis</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Regular Updates</strong> - Continuous improvements based on user feedback</li>
+                    </ul>
+                    
+                    <h4>Privacy Commitment</h4>
+                    <p>We take your privacy seriously. ClearSpend uses anonymous authentication and stores your data securely. We never share your financial information with third parties.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/privacy-shield.png" alt="Privacy Shield">
+                </div>
+            </div>
+            
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h3>Frequently Asked Questions</h3>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">Is ClearSpend really free? <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-answer">
+                            <p>Yes! ClearSpend is completely free with no ads, no in-app purchases, and no premium subscriptions. We believe financial tools should be accessible to everyone.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Do I need to create an account? <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-answer">
+                            <p>No account creation is required. ClearSpend uses anonymous authentication, so you can start using the app immediately without any sign-up process.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Can I use it offline? <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-answer">
+                            <p>Absolutely! ClearSpend works offline. Your data is stored locally on your device and syncs when you're back online.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">How do I backup my data? <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-answer">
+                            <p>You can export your data to CSV format anytime from the app settings. This allows you to keep backups or analyze your data in spreadsheet software.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/app-icon.png" alt="ClearSpend" class="footer-icon">
+                        <span class="footer-logo-text">ClearSpend</span>
+                    </div>
+                    <p class="footer-description">Smart expense tracking made simple. Take control of your finances today.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-reddit"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#screenshots">Screenshots</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> support@clearspend.app</li>
+                        <li><i class="fas fa-globe"></i> clearspend.app</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Made with ❤️ for the community</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ClearSpend Expense Tracker. All rights reserved. | Flutter App by [Your Name]</p>
+                <p>This is an open-source project. View source on <a href="https://github.com/yourusername/clearspend" class="github-link"><i class="fab fa-github"></i> GitHub</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
